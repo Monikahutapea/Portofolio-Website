@@ -4,11 +4,18 @@ import { Code, ExternalLink } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
+      title: "Portfolio Website",
+      desc: "Built a responsive personal portfolio website using React.js, Tailwind CSS, and Framer Motion to showcase projects and skills with clean UI and smooth animations.",
+      link: "https://github.com/Monikahutapea/Portofolio-Website",
+      tech: ["React.js", "Tailwind CSS", "Framer Motion"],
+      gradient: "from-[#7E9AAF] to-[#D8A48F]",
+    },
+    {
       title: "Predicting Employee Turnover",
       desc: "Developed a machine learning model to predict employee attrition using Logistic Regression, Random Forest, and XGBoost. Evaluated using ROC-AUC and precision-recall metrics.",
       link: "https://www.kaggle.com/code/monikahtp/predicting-employee-turnover-a-machine-learning",
       tech: ["Python", "Scikit-learn", "XGBoost", "Pandas", "Matplotlib"],
-      gradient: "from-[#7E9AAF] to-[#D8A48F]",
+      gradient: "from-[#D8A48F] to-[#A07156]",
     },
     {
       title: "Customer Segmentation Analysis",
@@ -22,7 +29,7 @@ export default function Projects() {
       desc: "Built and compared CNN models (VGG16, ResNet50, EfficientNetB0) for image classification tasks, achieving 94.8% test accuracy.",
       link: "https://github.com/Monikahutapea/Image-Classification-using-CNN-VGG16-ResNet50-EfficientNet",
       tech: ["TensorFlow", "Keras", "Python", "CNN", "Transfer Learning"],
-      gradient: "from-[#7E9AAF] to-[#A07156]",
+      gradient: "from-[#A07156] to-[#7E9AAF]",
     },
     {
       title: "Student Academic Performance Prediction",
@@ -36,7 +43,7 @@ export default function Projects() {
       desc: "Built a real-time data streaming system to monitor temperature sensors using Apache Kafka and PySpark with Docker integration.",
       link: "https://github.com/Monikahutapea/Big-Data_Data-Sensor-IoT-dengan-Apache-Kafka?tab=readme-ov-file",
       tech: ["Apache Kafka", "PySpark", "Docker", "Python"],
-      gradient: "from-[#D8A48F] to-[#7E9AAF]",
+      gradient: "from-[#7E9AAF] to-[#D8A48F]",
     },
   ];
 
